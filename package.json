@@ -1,0 +1,34 @@
+{
+  "name": "gopro-ecomm-webdriverio",
+  "version": "1.0.0",
+  "description": "[Proof-of-Concept] A WebdriverIO-approach to ECOMM testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchivescu-gpsw/gopro-ecomm-webdriverio.git"
+  },
+  "keywords": [
+    "webdriverio",
+    "wdio",
+    "automation",
+    "webautomation",
+    "selenium"
+  ],
+  "author": "DanTheMan (dchivescu@gopro.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dchivescu-gpsw/gopro-ecomm-webdriverio/issues"
+  },
+  "homepage": "https://github.com/dchivescu-gpsw/gopro-ecomm-webdriverio#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "selenium-standalone": "^6.15.1",
+    "wdio-mocha-framework": "^0.6.2",
+    "wdio-selenium-standalone-service": "0.0.10",
+    "wdio-spec-reporter": "^0.1.5",
+    "webdriverio": "^4.13.1"
+  }
+}
